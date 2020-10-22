@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return <>
-    <section>
-      <div>
-        <img src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+    <section className="navbar">
+      <div >
+        <img className="nav-logo" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
       </div>
       <div>
         <button> ENGLISH</button>
         <button> GERMAN </button>
       </div>
-      <div>
+      <div className="nav-options">
         <h1>HOME</h1>
         <h1>ABOUT US</h1>
         <h1> PROCESS</h1>

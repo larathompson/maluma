@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Footer from './components/Footer'
 import Nav from './components/Nav'
 import About from './components/About'
+import './style.scss'
 
 
 const App = () => {
