@@ -145,6 +145,48 @@ width: 80vh;
   justify-content: center;
 }
 
+//PROJECTS
+
+.project-individual {
+  display: flex;
+  flex-direction: row;
+  padding: 2vh;
+}
+
+.project-individual-text {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+}
+
+.project-sub {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2vh;
+ 
+}
+
+.main-image {
+  padding: 2vh;
+  height: 40vh;
+  width: 50vh;;
+}
+
+.project-individual-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-image {
+  height: 20vh;
+  width: 22vh;
+}
+
+.projects-title {
+  text-align: center;
+}
+
 
 
 //FOOTER

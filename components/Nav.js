@@ -12,12 +12,24 @@ const Nav = () => {
         <button> GERMAN </button>
       </div>
       <div className="nav-options">
+        <Link to="/home" className="navbar-link">
         <h1>HOME</h1>
+        </Link>
+        <Link to="/about" className="navbar-link">
         <h1>ABOUT US</h1>
+        </Link>
+        <Link to="/process" className="navbar-link">
         <h1> PROCESS</h1>
+        </Link>
+        <Link to="/projects" className="navbar-link">
         <h1>PROJECTS</h1>
+        </Link>
+        <Link to="/FAQ" className="navbar-link">
         <h1>FAQS</h1>
+        </Link>
+        <Link to="/contact" className="navbar-link">
         <h1>CONTACT US</h1>
+        </Link>
       </div>
       <div>
         <h1> Based in Munich </h1>

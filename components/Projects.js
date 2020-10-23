@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Projects = () => {
-  return <>
+  return <main>
     <section className='projects-outdoor'>
-      <h1>Outdoor Spaces</h1>
+      <h1 className="projects-title">Outdoor Spaces</h1>
       <div className='project-individual'>
         <div className="project-individual-text">
           <h2>Blockbau</h2>
@@ -11,8 +11,10 @@ const Projects = () => {
         </div>
         <div className="project-individual-images">
           <img className="main-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          <div className="project-sub">
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          </div>
         </div>
       </div>
 
@@ -23,8 +25,10 @@ const Projects = () => {
         </div>
         <div className="project-individual-images">
           <img className="main-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          <div className="project-sub">
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          </div>
         </div>
       </div>
 
@@ -35,14 +39,16 @@ const Projects = () => {
         </div>
         <div className="project-individual-images">
           <img className="main-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          <div className="project-sub">
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          </div>
         </div>
       </div>
     </section>
 
     <section className='projects-house'>
-      <h1>Tiny Houses</h1>
+      <h1 className="projects-title">Tiny Houses</h1>
       <div className='project-individual'>
         <div className="project-individual-text">
           <h2>Tiny house</h2>
@@ -50,14 +56,16 @@ const Projects = () => {
         </div>
         <div className="project-individual-images">
           <img className="main-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          <div className="project-sub">
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          </div>
         </div>
       </div>
     </section>
 
     <section className='projects-vans'>
-      <h1>Van Conversions</h1>
+      <h1 className="projects-title">Van Conversions</h1>
       <div className='project-individual'>
         <div className="project-individual-text">
           <h2>Campervan</h2>
@@ -65,15 +73,17 @@ const Projects = () => {
         </div>
         <div className="project-individual-images">
           <img className="main-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          <div className="project-sub">
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          </div>
         </div>
       </div>
     </section>
 
 
     <section className='projects-furniture'>
-      <h1>Furniture</h1>
+      <h1 className="projects-title">Furniture</h1>
       <div className='project-individual'>
         <div className="project-individual-text">
           <h2>Entrance Cupboard and Bench</h2>
@@ -81,8 +91,10 @@ const Projects = () => {
         </div>
         <div className="project-individual-images">
           <img className="main-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          <div className="project-sub">
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          </div>
         </div>
       </div>
 
@@ -93,8 +105,10 @@ const Projects = () => {
         </div>
         <div className="project-individual-images">
           <img className="main-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          <div className="project-sub">
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          </div>
         </div>
       </div>
 
@@ -105,32 +119,24 @@ const Projects = () => {
         </div>
         <div className="project-individual-images">
           <img className="main-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          <div className="project-sub">
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          </div>
         </div>
       </div>
 
       <div className='project-individual'>
         <div className="project-individual-text">
-          <h2>Loft Beds</h2>
-          <p>Nea - A child safe, modern loft bed with plywood stairs</p>
+          <h2>Dovetail Bed</h2>
+          <p>A rustic bed made from recycled beams and connected using dovetails</p>
         </div>
         <div className="project-individual-images">
           <img className="main-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-        </div>
-      </div>
-
-      <div className='project-individual'>
-        <div className="project-individual-text">
-          <h2>Coffee Table</h2>
-          <p>A modern take on a coffee table using recycled brown oak</p>
-        </div>
-        <div className="project-individual-images">
-          <img className="main-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          <div className="project-sub">
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          </div>
         </div>
       </div>
 
@@ -141,8 +147,10 @@ const Projects = () => {
         </div>
         <div className="project-individual-images">
           <img className="main-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          <div className="project-sub">
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          </div>
         </div>
       </div>
 
@@ -153,8 +161,10 @@ const Projects = () => {
         </div>
         <div className="project-individual-images">
           <img className="main-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          <div className="project-sub">
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          </div>
         </div>
       </div>
 
@@ -165,15 +175,17 @@ const Projects = () => {
         </div>
         <div className="project-individual-images">
           <img className="main-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-          <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          <div className="project-sub">
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          </div>
         </div>
       </div>
     </section>
 
 
 
-  </>
+  </main>
 }
 
-export default Projects
+export default Projects 
