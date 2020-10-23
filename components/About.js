@@ -2,28 +2,42 @@ import React from 'react'
 
 const About = () => {
   return <>
-    <main className="aboutMain">
-      <div>
-        <h1 className="aboutLine"> This is a quick line about us!</h1>
+    <main className="about-main">
+      <div className="about-line">
+        <p > We are the Mühlbach Kollektiv team, a group of carpenters and joiners from Munich and London. We’re focused on bringing your ideas to life.</p>
+        <p> We are a group of 3 friends with a combined goal of designing unique projects.  We are qualified, open-minded carpenters and joiners.</p>
       </div>
-      <section className="aboutProfile">
-        <div className="aboutSingleProfile">
-          <img src="https://specials-images.forbesimg.com/imageserve/5f5a618e174e49a914dfc1f9/960x0.gif?fit=scale" />
-          <p> This is WIggy he likes carving wood </p>
+      
+      <div className="about-info">
+        <img src="https://www.widefashion.com/wp-content/uploads/2018/12/a-modern-wooden-house.jpg" />
+        <p> What We Do - We use a mixture of our carpentry and joinery skills to offer a broad range of services. We have experience building tiny houses, van conversions, furniture, outdoor spaces and blockbau etc. We are always looking for new projects to improve our skills and deliver a quality piece. </p>
+      </div>
+
+      <section className="about-people">
+
+        <div className="about-person">
+          <img src="https://www.widefashion.com/wp-content/uploads/2018/12/a-modern-wooden-house.jpg" />
+          <p>Kostja - carpenter </p>
         </div>
-        <div className="aboutSingleProfile">
-          <img src="https://www.mentalup.co/img/blog/famous-people-6.jpg" />
-          <p> This is Max he likes carving wood </p>
+
+        <div className="about-person">
+            <img src="https://www.widefashion.com/wp-content/uploads/2018/12/a-modern-wooden-house.jpg" />
+            <p>Louis - joiner</p>
         </div>
-        <div className="aboutSingleProfile">
-          <img src="https://images.fastcompany.net/image/upload/w_1153,ar_16:9,c_fill,g_auto,f_auto,q_auto,fl_lossy/wp-cms/uploads/2019/12/p-1-greta-thunberg-was-just-named-time-magazines-2019-person-of-the-year.jpg" />
-          <p> This is Max he likes carving wood </p>
+
+        <div className="about-person">
+            <  img src="https://www.widefashion.com/wp-content/uploads/2018/12/a-modern-wooden-house.jpg" />
+            <p>Max - carpenter </p>
         </div>
-        <div className="aboutPhilosophy">
-          <p>Our Philosophy is to ...</p>
-          <p>BASED IN MUNICH BUT WE WORK WORLDWIDE</p>
-        </div>
+
+        
       </section>
+
+      <div className="aboutPhilosophy">
+        <p>Philosophy - Our philosophy is to use and reuse environmental materials combined with architectural influences to design smarter living solutions.</p>
+        <p>Based in Munich BUT we work WORLDWIDE</p>
+      </div>
+  
 
     </main>
   </>
