@@ -12,6 +12,14 @@ $cream: #FFFAF1;
   margin: 0;
 }
 
+
+html { 
+  background: $green no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 //NAVBAR
 
 .nav-logo {
@@ -42,11 +50,11 @@ $cream: #FFFAF1;
   align-items: center;
 }
 
-// .sliderimg {
-//   width: 100%;
-//   height: 500px;
-//   object-fit: cover;
-// }
+.sliderimg {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
 
 .home-philosophy {
   display: flex;
