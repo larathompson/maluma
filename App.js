@@ -1,6 +1,7 @@
 import React from 'react'
 import { HashRouter, Switch, Route } from 'react-router-dom'
-
+// import AliceCarousel from 'react-alice-carousel'
+// import 'react-alice-carousel/lib/alice-carousel.css'
 import Home from './components/Home'
 import Footer from './components/Footer'
 import Nav from './components/Nav'
@@ -8,6 +9,7 @@ import About from './components/About'
 import Process from './components/Process'
 import Projects from './components/Projects'
 import './style.scss'
+
 
 
 const App = () => {
