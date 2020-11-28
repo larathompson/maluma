@@ -93,13 +93,13 @@ const Home = () => {
         <div className="home-featured-one-images">
           <img src={image1} className="featuredProjImg" />
           <img src={image4} className="featuredProjImg" />
-          <img src={image17} className="featuredProjImg" />
+          {/* <img src={image17} className="featuredProjImg" /> */}
         </div>
       </div>
 
       <div className="home-featured-two">
         <img src={image11} className="featuredProjImg2" />
-        <p className="home-2-text"> Customer review: I like this house a lot. dsfsdfs dfsdf sdfsdsd gdfgfg hsfghdf ghdghjgdhjfdgs dfgsdfgd sfgsfgdsf </p>
+        <p className="home-2-text"> Customer review: I like this house a lot. dsfsdfs dfsdf sdfsdsd </p>
       </div>
     </section>
   </main >
