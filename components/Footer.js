@@ -3,7 +3,17 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return <>
+<hr style={{
+      // color: '#FFFAF1',
+      backgroundColor: '#FFFAF1',
+      width: 4000,
+      height: .5,
+      borderColor: '#FFFAF1'
+    }} />
+
 <footer>
+
+
   <div className="footer-address">
   <p> Address</p>
   <p> LINE1</p>

@@ -8,6 +8,11 @@ $cream: #FFFAF1;
 // Raq's
 // $transparent-grey: #9193a058;
 
+
+
+// font-family: 'Kaushan Script', cursive;
+// font-family: 'Grandstander', cursive;
+
 * {
   margin: 0;
 }
@@ -19,30 +24,56 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3vh;
+  color: $cream;
+
 }
 //NAVBAR
 
 .nav-logo {
   height: 15vh;
+  padding: 3vh;
 }
 
 .navbar {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .nav-options {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 2vh;
 }
 
 .nav-options h1 { 
   padding: 2vh;
 } 
 
+.nav-options h1 {
+  font-family: 'Grandstander', cursive;
+  color: white;
+  font-size: 4vh;
+  text-decoration: none;
+}
+
+.navbar-based {
+  font-size: 4vh;
+  color: white;
+  font-family: 'Grandstander', cursive;
+}
+
 // HOME PAGE
+
+//CONTACT US 
+
+// hr {
+//   padding: 3vh;
+// }
 
 .home-main {
   display: flex;
@@ -54,12 +85,14 @@ html {
   width: 100%;
   height: 500px;
   object-fit: cover;
+  padding: 3vh;
 }
 
 .home-philosophy {
   display: flex;
   flex-direction:row;
   align-items: center;
+  padding: 8vh 1vh;
 }
 
 .home-philosophy img {
@@ -71,6 +104,8 @@ padding: 2vh;
   display: flex;
   flex-direction:row;
   align-items: center;
+  padding: 8vh 1vh;
+
 }
 
 .home-contact img {
@@ -81,20 +116,31 @@ padding: 2vh;
 .home-featured {
   display: flex;
   flex-direction: row;
+  padding: 8vh 0vh;
 }
 
 .home-featured-one {
   display: flex;
   flex-direction: column;
   align-items: left;
+  max-width: 100vh;
   
 }
 
-.home-featured-one img {
-  height: 7vh;
-  // padding: 2vh;
-  // display: flex;
-  // flex-direction: row;
+.home-featured-d {
+  max-width: 70vh;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+
+
+.featuredProjImg {
+  height: 30vh;
+  padding: 2vh;
+  display: flex;
+  flex-direction: row;
 }
 
 .home-featured-one-images{
@@ -109,10 +155,20 @@ padding: 2vh;
   flex-direction: column;
   padding-left: 2vh;
   align-items: center;
+  max-width: 50vh;
+  
 }
 
-.home-featured-two img {
-  height: 7vh;
+.home-2-text {
+  // max-width: 50vh;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+
+.featuredProjImg2 {
+  width: 50vh;
   
 }
 

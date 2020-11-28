@@ -32,7 +32,7 @@ const Nav = () => {
         </Link>
       </div>
       <div>
-        <h1> Based in Munich </h1>
+        <h1 className="navbar-based"> Based in Munich </h1>
       </div>
     </section>
   </>
