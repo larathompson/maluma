@@ -57,7 +57,7 @@ const Home = () => {
         <p> <b></b>Philosophy - Our philosophy is to use and reuse environmental materials combined with architectural influences to design smarter living solutions.</p>
       </div>
       <div>
-        <img src="https://www.recycling.com/wp-content/uploads/2016/06/Universal-Recycling-Symbol-U2672.jpg" />
+      <span>&#9851;</span>
       </div>
     </section>
 
@@ -71,7 +71,8 @@ const Home = () => {
 
     <section className="home-contact">
       <h1> GET IN TOUCH</h1>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/600px-Instagram-Icon.png" />
+      <a href="#" className="fa fa-instagram"></a>
+      
     </section>
 
     <hr style={{

@@ -108,9 +108,16 @@ padding: 2vh;
 
 }
 
+.home-contact h1 {
+  padding-right: 4vh;
+}
+
+
+
 .home-contact img {
 height: 5vh;
 padding: 2vh;
+padding-left: 8vh;
 }
 
 .home-featured {
@@ -147,6 +154,8 @@ padding: 2vh;
   padding: 2vh;
   display: flex;
   flex-direction: row;
+  border-radius: 8px;
+  
 }
 
 .home-featured-one-images{
@@ -299,5 +308,30 @@ footer {
   display: flex;
   flex-direction: column;
   height: 4vh;
+}
+
+span {
+  content: "\267B";
+}
+
+//icons 
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  margin-bottom: 2vh;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 6vh;
+  width: 6vh;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa fa-recycle{
+  padding-top: 2vh;
 }
 

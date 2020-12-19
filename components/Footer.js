@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return <>
-<hr style={{
+    <hr style={{
       // color: '#FFFAF1',
       backgroundColor: '#FFFAF1',
       width: 4000,
@@ -11,29 +11,30 @@ const Footer = () => {
       borderColor: '#FFFAF1'
     }} />
 
-<footer>
+    <footer>
 
 
-  <div className="footer-address">
-  <p> Address</p>
-  <p> LINE1</p>
-  <p> LINE2</p>
-  <p> LINE3</p>
-</div>
-<div className="footer-contact">
-<p>023903853945e907</p>
-<p>wiggy@wiggy.com</p>
-</div>
-<div className="footer-images">
-<div className="footerMedia">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/600px-Instagram-Icon.png"/>
-</div>
-<div className="footerLogo">
-<img src="https://www.recycling.com/wp-content/uploads/2016/06/Universal-Recycling-Symbol-U2672.jpg"/>
-</div>
-</div>
+      <div className="footer-address">
+        <p><b>Address</b></p>
+        <p> LINE1</p>
+        <p> LINE2</p>
+        <p> LINE3</p>
+      </div>
+      <div className="footer-contact">
+        <p> <b>Contact</b> </p>
+        <p>023903853945e907</p>
+        <p>wiggy@wiggy.com</p>
+      </div>
+      <div className="footer-images">
+        <div className="footerMedia">
+          <a href="#" className="fa fa-instagram fa-4x"></a>
+        </div>
+        <div className="footerLogo">
+          <i className="fa fa-recycle"></i>
+        </div>
+      </div>
 
-</footer>
+    </footer>
   </>
 
 }
