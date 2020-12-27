@@ -22,7 +22,7 @@ const App = () => {
       <Route exact path='/about' component={About}/>
       <Route exact path ='/process' component={Process}/>
       <Route exact path ='/projects' component={Projects}/>
-      <Route exact path = '/questions' component={Questions} />
+      <Route exact path = '/faqs' component={Questions} />
     </Switch>
     <Footer />
   </HashRouter>
