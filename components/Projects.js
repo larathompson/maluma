@@ -1,5 +1,28 @@
 import React from 'react'
 
+import image1 from '../images/smallHouse.png'
+import image2 from '../images/sink.jpeg'
+import image3 from '../images/exterior.jpeg'
+import image4 from '../images/stairs.jpeg'
+import image5 from '../images/beach.jpeg'
+import image6 from '../images/busShelter.jpeg'
+import image7 from '../images/ceiling.jpeg'
+import image8 from '../images/cupboards.jpeg'
+import image9 from '../images/decking.jpeg'
+import image10 from '../images/folding.jpeg'
+import image11 from '../images/insideHouse.jpeg'
+import image12 from '../images/joining.jpeg'
+import image13 from '../images/lakeHouse.jpeg'
+import image14 from '../images/light.jpeg'
+import image15 from '../images/outside.jpeg'
+import image16 from '../images/polish.jpeg'
+import image17 from '../images/steps.jpeg'
+import image18 from '../images/woodSelection.jpeg'
+
+import image19 from '../images/Louis_Bench_01.jpg'
+import image20 from '../images/Louis_Cupboard_01.jpg'
+import image21 from '../images/Louis_Cupboard_02.jpg'
+
 const Projects = () => {
   return <main>
     <section className='projects-outdoor'>
@@ -90,10 +113,10 @@ const Projects = () => {
           <p>A large poplar cupboard with shaker style doors to tidy up the entryway of a house.</p>
         </div>
         <div className="project-individual-images">
-          <img className="main-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+          <img className="main-image" src={image20} />
           <div className="project-sub">
-            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
-            <img className="sub-image" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
+            <img className="sub-image" src={image21} />
+            <img className="sub-image" src={image19}/>
           </div>
         </div>
       </div>

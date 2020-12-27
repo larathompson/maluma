@@ -22,10 +22,14 @@ import image16 from '../images/polish.jpeg'
 import image17 from '../images/steps.jpeg'
 import image18 from '../images/woodSelection.jpeg'
 
+import image19 from '../images/Louis_Bench_01.jpg'
+import image20 from '../images/Louis_Cupboard_01.jpg'
+import image21 from '../images/Louis_Cupboard_02.jpg'
+
 
 const Home = () => {
   return <main className="home-main">
-    <div>
+    <div className='carouselImages'>
       <AliceCarousel autoPlay autoPlayInterval="3000">
         <img src={image1} className="sliderimg" />
         <img src={image2} className="sliderimg" />
@@ -61,13 +65,13 @@ const Home = () => {
       </div>
     </section>
 
-    <hr style={{
+    {/* <hr style={{
       // color: '#FFFAF1',
       backgroundColor: '#FFFAF1',
       width: 4000,
       height: .5,
       borderColor: '#FFFAF1'
-    }} />
+    }} /> */}
 
     <section className="home-contact">
       <h1> GET IN TOUCH</h1>
@@ -75,13 +79,13 @@ const Home = () => {
       
     </section>
 
-    <hr style={{
+    {/* <hr style={{
       // color: '#FFFAF1',
       backgroundColor: '#FFFAF1',
       width: 4000,
       height: .5,
       borderColor: '#FFFAF1'
-    }} />
+    }} /> */}
 
 
 
@@ -92,14 +96,14 @@ const Home = () => {
           <p className="home-featured-d">Featured Project: Entrance Cupboard vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv</p>
         </div>
         <div className="home-featured-one-images">
-          <img src={image1} className="featuredProjImg" />
-          <img src={image4} className="featuredProjImg" />
+          <img src={image19} className="featuredProjImg" />
+          <img src={image20} className="featuredProjImg" />
           {/* <img src={image17} className="featuredProjImg" /> */}
         </div>
       </div>
 
       <div className="home-featured-two">
-        <img src={image11} className="featuredProjImg2" />
+        <img src={image21} className="featuredProjImg2" />
         <p className="home-2-text"> Customer review: I like this house a lot. dsfsdfs dfsdf sdfsdsd </p>
       </div>
     </section>

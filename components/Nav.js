@@ -7,10 +7,10 @@ const Nav = () => {
       <div >
         <img className="nav-logo" src="https://www.yourlocalguardian.co.uk/resources/images/10962839.jpg?display=1&htype=0&type=responsive-gallery" />
       </div>
-      <div>
+      {/* <div>
         <button> ENGLISH!</button>
         <button> GERMAN! </button>
-      </div>
+      </div> */}
       <div className="nav-options">
         <Link to="/home" className="navbar-link">
         <h1>HOME</h1>

@@ -8,6 +8,8 @@ import Nav from './components/Nav'
 import About from './components/About'
 import Process from './components/Process'
 import Projects from './components/Projects'
+import Questions from './components/Questions'
+// import FAQ from './components/FAQ'
 import './style.scss'
 
 
@@ -20,6 +22,7 @@ const App = () => {
       <Route exact path='/about' component={About}/>
       <Route exact path ='/process' component={Process}/>
       <Route exact path ='/projects' component={Projects}/>
+      <Route exact path = '/questions' component={Questions} />
     </Switch>
     <Footer />
   </HashRouter>
